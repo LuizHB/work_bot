@@ -8,13 +8,15 @@ import time
 print("Initiating the bot...\n")
 
 domains = []
-file = open("results.txt","w")
+
+#file to save the results
+file = open("Files/results.txt","w")
 
 #sheet index
 n = 0
 
 #Reading from Excel file
-PATH = "C:/Users/Pc/Documents/GitHub/work_bot/Bots/ExcelFiles/Domains.xlsx"
+PATH = "C:/Users/Pc/Documents/GitHub/work_bot/Bots/Files/Domains.xlsx"
 workbook = load_workbook(PATH)
 sheets = workbook.sheetnames
 wb = workbook[sheets[n]]
@@ -43,7 +45,7 @@ for domain in domains:
     time.sleep(2) #time to load the page
     #find information with a Tag
     results = driver.find_elements(By.TAG_NAME,"strong")
-    #print results
+    #saving results
     text ="Domain %s %s\n" % (domain, results[4].text)
     file.write(text)
 
