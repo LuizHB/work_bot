@@ -33,8 +33,8 @@ for domain in domains:
     time.sleep(2) #time to load the page
     #find information with a Tag
     results = driver.find_elements(By.TAG_NAME,"strong")
+    # method to stop the code and trace the results by results[i].text. (c + enter closes it)
     #import pdb; pdb.set_trace()
-    #method to stop the code and trace the results by results[i].text. (c + enter closes it)
     #print results
     print("Domain %s %s" % (domain, results[4].text))
 
