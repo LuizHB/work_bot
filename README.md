@@ -3,11 +3,15 @@
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=UPDATING&color=BRIGHTGREEN&style=for-the-badge)
 
 ![Python](http://img.shields.io/static/v1?label=Python&message=v3.10&color=blue)
+![Excel](http://img.shields.io/static/v1?label=Microsoft&message=Excel&color=blue)
 
-Bots designed for automation methods with Selenium.
+Bots designed for automation methods with Selenium and Excel files.
 
 ## List of bots:
 - Domains Availability Check
+    1. With a list of domains
+    2. With external Excel file
+    3. 
 - Unsuccessful login tests:
     - Blank 
     - Blank password
