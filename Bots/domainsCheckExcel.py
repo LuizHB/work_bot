@@ -8,6 +8,7 @@ import time
 print("Initiating the bot...\n")
 
 domains = []
+file = open("results.txt","w")
 
 #sheet index
 n = 0
@@ -17,8 +18,12 @@ PATH = "C:/Users/Pc/Documents/GitHub/work_bot/Bots/ExcelFiles/Domains.xlsx"
 workbook = load_workbook(PATH)
 sheets = workbook.sheetnames
 wb = workbook[sheets[n]]
+
+#reading multiples rows and columns
 for row in range(1,10):
-    domains.append(wb.cell(row,1).value)
+    for column in range(1,3):
+        print(wb.cell(row,column).value)
+        domains.append(wb.cell(row,column).value)
 
 #webdriver
 ser = Service('C:/Users/Pc/Desktop/Luiz/Robos/chromedriver')
@@ -39,7 +44,8 @@ for domain in domains:
     #find information with a Tag
     results = driver.find_elements(By.TAG_NAME,"strong")
     #print results
-    print("Domain %s %s" % (domain, results[4].text))
+    text ="Domain %s %s\n" % (domain, results[4].text)
+    file.write(text)
 
+file.close()
 driver.close()
-
