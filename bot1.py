@@ -6,16 +6,16 @@ import time
 
 print("Iniciando nosso robô...\n")
 
-'''    Depreciado (jeito mais direto)
+'''deprecated mode
 PATH = 'C:/Users/Pc/Desktop/Luiz/Robos/chromedriver'
 driver = webdriver.Chrome(PATH)
 driver.get("https://registro.br/")
 '''
 
-#modo mais "bonito" e mais enxuto
+#cleaner mode
 ser = Service('C:/Users/Pc/Desktop/Luiz/Robos/chromedriver')
 op = webdriver.ChromeOptions()
-#opção para retirar o erro de adaptador de bluetooth
+#option to remove bluetooth adapter error
 op.add_experimental_option("excludeSwitches", ["enable-logging"]) 
 
 driver = webdriver.Chrome(service=ser, options=op)
@@ -23,19 +23,20 @@ driver = webdriver.Chrome(service=ser, options=op)
 url = "https://registro.br/"
 driver.get(url)
 
-pesquisa = driver.find_element(By.ID,"is-avail-field")
-pesquisa.clear() #Limpando a barra de pesquisa
-dominio = "roboscompython.com.br"
-pesquisa.send_keys(dominio)
+search = driver.find_element(By.ID,"is-avail-field")
+search.clear() #Cleaning the search bar
+domain = "roboscompython.com.br"
+search.send_keys(domain)
 
-pesquisa.send_keys(Keys.RETURN)
-time.sleep(2) #tempo para carregar a pagina
+search.send_keys(Keys.RETURN)
+time.sleep(2) #time to load the page
 
-resultados = driver.find_elements(By.TAG_NAME,"strong")
+results = driver.find_elements(By.TAG_NAME,"strong")
 
-#import pdb; pdb.set_trace() #parar o codigo para olhar os resultados usando: resultados[i].text e procurar o que precisa. Neste caso o 4 retorna disponivel e não disponivel. E para fechar o pdb só digitar c e apertar enter
+#import pdb; pdb.set_trace() 
+#method to stop the code and trace the results by results[i].text. (c + enter closes it)
 
-print("Domínio %s %s" % (dominio, resultados[4].text))
+print("Domain %s %s" % (domain, results[4].text))
 
-time.sleep(4) #Conclusão
+time.sleep(4) #Time for conclusion
 driver.close()
