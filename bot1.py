@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
 
-print("Iniciando nosso robô...\n")
+print("Initiating the bot...\n")
 
 '''deprecated mode
 PATH = 'C:/Users/Pc/Desktop/Luiz/Robos/chromedriver'
@@ -31,11 +31,13 @@ search.send_keys(domain)
 search.send_keys(Keys.RETURN)
 time.sleep(2) #time to load the page
 
+#find information with a Tag
 results = driver.find_elements(By.TAG_NAME,"strong")
 
 #import pdb; pdb.set_trace() 
 #method to stop the code and trace the results by results[i].text. (c + enter closes it)
 
+#print results
 print("Domain %s %s" % (domain, results[4].text))
 
 time.sleep(4) #Time for conclusion
