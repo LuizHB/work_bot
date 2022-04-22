@@ -10,12 +10,7 @@ Bots designed for automation methods with Selenium and Excel files.
 ## List of bots:
 - Domains Availability Check
     1. With a list of domains
-    2. With external Excel file
-    3. 
-- Unsuccessful login tests:
-    - Blank 
-    - Blank password
-- Recovery 
+    2. With external Excel file and saving results in another text file
 
 ## Bots to do:
 - [ ] Success
