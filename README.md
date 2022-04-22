@@ -13,5 +13,7 @@ Bots designed for automation methods with Selenium and Excel files.
     2. With external Excel file and saving results in another text file
 
 ## Bots to do:
-- [ ] Success
-- [ ] New Test
+- [ ] Google bot
+- [ ] Email bot
+- [ ] Youtube bot
+- [ ] Telegram bot
