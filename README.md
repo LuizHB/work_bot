@@ -7,7 +7,7 @@
 Bots designed for automation methods with Selenium.
 
 ## List of bots:
-- Successful login
+- Domains Availability Check
 - Unsuccessful login tests:
     - Blank 
     - Blank password
