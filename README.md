@@ -22,12 +22,12 @@ Bots designed for automation methods with Selenium and Excel files.
 ## Deprecated mode changed:
 
 PATH = 'C:/chromedriver'  
-driver = webdriver.Chrome(PATH) 
+driver = webdriver.Chrome(PATH)  <br>
 driver.get(url)
 
 ## Clean mode:
 
-ser = Service( )[^1].   
+ser = Service( )[^1]  
 op = webdriver.ChromeOptions()  
 #option to remove bluetooth adapter error     
 op.add_experimental_option("excludeSwitches", ["enable-logging"])    
