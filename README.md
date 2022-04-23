@@ -27,7 +27,7 @@ driver.get(url)
 
 ## Clean mode:
 
-ser = Service()[^1].   
+ser = Service( )[^1].   
 op = webdriver.ChromeOptions()  
 #option to remove bluetooth adapter error     
 op.add_experimental_option("excludeSwitches", ["enable-logging"])    
