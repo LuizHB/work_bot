@@ -22,7 +22,7 @@ Bots designed for automation methods with Selenium and Excel files.
 ## Deprecated mode changed:
 
 PATH = 'C:/chromedriver'  
-driver = webdriver.Chrome(PATH)  <br>
+driver = webdriver.Chrome(PATH) <br>  <br>
 driver.get(url)
 
 ## Clean mode:
