@@ -25,4 +25,15 @@ PATH = 'C:/chromedriver'
 driver = webdriver.Chrome(PATH) 
 driver.get(url)
 
+## Clean mode:
 
+ser = Service()[^1]   
+op = webdriver.ChromeOptions()  
+#option to remove bluetooth adapter error     
+op.add_experimental_option("excludeSwitches", ["enable-logging"])    
+driver = webdriver.Chrome(service=ser, options=op)    
+url = "website"    
+driver.get(url)
+
+[^1]: 
+With the chromedriver file on same folder you can leave the Service( ) parenthesis blank
