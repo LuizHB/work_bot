@@ -16,7 +16,7 @@ file = open("Files/results.txt","w")
 n = 0
 
 #Reading from Excel file
-PATH = "C:/Users/Pc/Documents/GitHub/work_bot/Bots/Files/Domains.xlsx"
+PATH = "Files/Domains.xlsx"
 workbook = load_workbook(PATH)
 sheets = workbook.sheetnames
 wb = workbook[sheets[n]]

@@ -7,7 +7,7 @@ import time
 print("Initiating the bot...\n")
 
 '''deprecated mode
-PATH = 'C:/Users/Pc/Desktop/Luiz/Robos/chromedriver'
+PATH = 'C:/chromedriver'
 driver = webdriver.Chrome(PATH)
 driver.get("https://registro.br/")
 '''
