@@ -13,7 +13,7 @@ driver.get("https://registro.br/")
 '''
 
 #cleaner mode
-ser = Service('C:/Users/Pc/Desktop/Luiz/Robos/chromedriver')
+ser = Service()
 op = webdriver.ChromeOptions()
 #option to remove bluetooth adapter error
 op.add_experimental_option("excludeSwitches", ["enable-logging"]) 

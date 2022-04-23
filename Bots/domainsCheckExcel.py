@@ -28,7 +28,7 @@ for row in range(1,10):
         domains.append(wb.cell(row,column).value)
 
 #webdriver
-ser = Service('C:/Users/Pc/Desktop/Luiz/Robos/chromedriver')
+ser = Service()
 op = webdriver.ChromeOptions()
 #option to remove bluetooth adapter error
 op.add_experimental_option("excludeSwitches", ["enable-logging"])
