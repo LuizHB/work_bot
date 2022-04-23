@@ -17,3 +17,12 @@ Bots designed for automation methods with Selenium and Excel files.
 - [ ] Email bot
 - [ ] Youtube bot
 - [ ] Telegram bot
+
+
+## Deprecated mode changed:
+
+PATH = 'C:/chromedriver'  
+driver = webdriver.Chrome(PATH) 
+driver.get(url)
+
+

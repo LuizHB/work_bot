@@ -6,13 +6,7 @@ import time
 
 print("Initiating the bot...\n")
 
-'''deprecated mode
-PATH = 'C:/chromedriver'
-driver = webdriver.Chrome(PATH)
-driver.get("https://registro.br/")
-'''
-
-#cleaner mode
+#webdriver
 ser = Service()
 op = webdriver.ChromeOptions()
 #option to remove bluetooth adapter error
