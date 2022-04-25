@@ -13,7 +13,7 @@ Bots designed for automation methods with Selenium and Excel files.
     2. With external Excel file and saving results in another text file
 
 ## Bots to do:
-- [ ] Google bot
+- [x] Google bot[^2]
 - [ ] Email bot
 - [ ] Youtube bot
 - [ ] Telegram bot
@@ -35,4 +35,5 @@ driver = webdriver.Chrome(service=ser, options=op)
 url = "website"           
 driver.get(url)
 
-[^1]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank
+[^1]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank <br>
+[^2]: Minor issues to fix later.
