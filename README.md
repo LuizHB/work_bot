@@ -4,6 +4,8 @@
 
 ![Python](http://img.shields.io/static/v1?label=Python&message=v3.10&color=blue)
 ![Excel](http://img.shields.io/static/v1?label=Microsoft&message=Excel&color=blue)
+![CHROMEDRIVER](http://img.shields.io/static/v1?label=Chromedriver&message=v100.0.4896.127&color=blue)
+
 
 Bots designed for automation methods with Selenium and Excel files.
 
