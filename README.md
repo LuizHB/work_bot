@@ -23,8 +23,8 @@ Bots designed for automation methods with Selenium and Excel files.
 - [ ] Email bot
   - [x] Gmail server bot[^2]
   - [ ] With browser[^3]
-- [ ] Youtube bot
-- [ ] Telegram bot
+- [x] Youtube bot[^4]
+- [ ] Telegram bot[^5]
 
 
 ## Deprecated mode changed:
@@ -43,7 +43,8 @@ driver = webdriver.Chrome(service=ser, options=op)
 url = "website"           
 driver.get(url)
 
-[^1]: Minor issues to fix later. 
+[^1]: Issues in getting all the links.
 [^2]: Going to be deprecated soon with gmail changes.
 [^3]: Starting soon.
+[^4]: Minor issue in last page change.
 [^6]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
