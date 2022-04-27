@@ -13,10 +13,10 @@ Bots designed for automation methods with Selenium and Excel files.
     2. With external Excel file and saving results in another text file
 
 ## Bots to do:
-- [x] Google bot[^2]
+- [x] Google bot[^1]
 - [ ] Email bot
-  - [x] Gmail server bot[^3]
-  - [ ] With browser[^4]
+  - [x] Gmail server bot[^2]
+  - [ ] With browser[^3]
 - [ ] Youtube bot
 - [ ] Telegram bot
 
@@ -29,7 +29,7 @@ driver.get(url)
 
 ## Clean mode:
 
-ser = Service( )[^1]  
+ser = Service( )[^4]  
 op = webdriver.ChromeOptions()  
 #option to remove bluetooth adapter error     
 op.add_experimental_option("excludeSwitches", ["enable-logging"])    
@@ -37,7 +37,7 @@ driver = webdriver.Chrome(service=ser, options=op)
 url = "website"           
 driver.get(url)
 
-[^1]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank <br>
-[^2]: Minor issues to fix later. <br>
-[^3]: Going to be deprecated soon with gmail changes.<br>
-[^4]: Starting soon
+[^1]: Minor issues to fix later. 
+[^2]: Going to be deprecated soon with gmail changes.
+[^3]: Starting soon.
+[^4]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
