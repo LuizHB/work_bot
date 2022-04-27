@@ -15,6 +15,8 @@ Bots designed for automation methods with Selenium and Excel files.
 ## Bots to do:
 - [x] Google bot[^2]
 - [ ] Email bot
+  - [x] Gmail server bot[^3]
+  - [ ] With browser[^4]
 - [ ] Youtube bot
 - [ ] Telegram bot
 
@@ -36,4 +38,6 @@ url = "website"
 driver.get(url)
 
 [^1]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank <br>
-[^2]: Minor issues to fix later.
+[^2]: Minor issues to fix later. <br>
+[^3]: Going to be deprecated soon with gmail changes.<br>
+[^4]: Starting soon
