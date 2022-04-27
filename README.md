@@ -8,9 +8,13 @@
 Bots designed for automation methods with Selenium and Excel files.
 
 ## List of bots:
-- Domains Availability Check
+- Domains Availability Check:
     1. With a list of domains
+       - can be found in /Bots/domainsCheck.py
     2. With external Excel file and saving results in another text file
+       - can be found in /Bots/domainsCheckExcel.py
+- Google bot
+  - can be found in /Bots/googleBot.py
 
 ## Bots to do:
 - [x] Google bot[^1]
