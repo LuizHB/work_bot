@@ -47,4 +47,5 @@ driver.get(url)
 [^2]: Going to be deprecated soon with gmail changes.
 [^3]: Starting soon.
 [^4]: Minor issue in last page change.
+[^5]: Starting soon.
 [^6]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
