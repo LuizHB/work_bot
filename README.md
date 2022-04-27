@@ -33,7 +33,7 @@ driver.get(url)
 
 ## Clean mode:
 
-ser = Service( )[^4]  
+ser = Service( )[^6]  
 op = webdriver.ChromeOptions()  
 #option to remove bluetooth adapter error     
 op.add_experimental_option("excludeSwitches", ["enable-logging"])    
@@ -44,4 +44,4 @@ driver.get(url)
 [^1]: Minor issues to fix later. 
 [^2]: Going to be deprecated soon with gmail changes.
 [^3]: Starting soon.
-[^4]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
+[^6]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
