@@ -40,7 +40,7 @@ op = webdriver.ChromeOptions()
 #option to remove bluetooth adapter error     
 op.add_experimental_option("excludeSwitches", ["enable-logging"])    
 driver = webdriver.Chrome(service=ser, options=op)    
-url = "website"           
+url = "website path"           
 driver.get(url)
 
 [^1]: Issues in getting all the links.
