@@ -30,7 +30,7 @@ Bots designed for automation methods with Python.
 - Google bot
   - The googleBot searches for determined information on Google website and return the results in a text file.
 - Email bot:
-  - The gmailBotServer apply the SMTP protocol client library to send emails using gmail server. There are options to attach files and external body text as such HTML codes.
+  - The gmailBotServer apply the SMTP protocol client library to send emails using gmail server. There are options to attach files and external body text as such HTML codes. For the server bot is necessary to enable the option "Less secure app access" in Google account management security's tab. 
 - YouTube bot
   - The youtubeBot searches for determined information on YouTube website and return the results inside the console.
 - Telegram bot
