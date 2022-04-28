@@ -19,11 +19,11 @@ Bots designed for automation methods with Selenium and Excel files.
   - can be found in /Bots/googleBot.py
 - Email bot:
   - Gmail server bot
-    -
+    - can be found in /Bots/gmailBotServer.py
 - Youtube bot
-    -
+    - can be found in /Bots/youtubeBot.py
 - Telegram bot
-  - 
+  - can be found in /Bots/telegramBot.py
 
 ## Bots to do:
 - [x] Google bot[^1]
