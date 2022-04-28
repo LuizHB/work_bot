@@ -34,7 +34,7 @@ Bots designed for automation methods with Python.
 - YouTube bot
   - The youtubeBot searches for determined information on YouTube website and return the results inside the console.
 - Telegram bot
-  - The telegramBot applies a method combining telegram's API with telethon library to get the members of a group in telegram and add in another group. Other methods will be applied later.
+  - The telegramBot applies a method combining telegram's API with telethon library to get the members of a group in telegram and add in another group. Other methods will be applied later. For this bot, create an API code in "https://my.telegram.org/" and add your information in the code found in /Bots/configTlgBot.py
 - Audiobook bot
   - The audioBookBot convert a PDF file to audio in MP3 format.
 
@@ -46,8 +46,6 @@ Bots designed for automation methods with Python.
 - [x] Youtube bot[^4]
 - [x] Telegram bot[^5]
 - [ ] Audiobook bot[^6]
-
-For the Telegram bot, create an API code in "https://my.telegram.org/" and add your information in the code /Bots/configTlgBot.py
 
 ## Deprecated mode changed:
 
