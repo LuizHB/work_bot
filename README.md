@@ -11,31 +11,33 @@ Bots designed for automation methods with Python.
 
 ## List of bots:
 - Domains Availability Check:
-  - can be found in /Bots/domainsCheck.py
-  - can be found in /Bots/domainsCheckExcel.py
+  - [domainsCheck](/Bots/domainsCheck.py)
+  -  [domainsCheckExcel](/Bots/domainsCheckExcel.py)
 - Google bot
-  - can be found in /Bots/googleBot.py
+  - [googleBot](/Bots/googleBot.py)
 - Email bot:
   - Gmail server bot
-    - can be found in /Bots/gmailBotServer.py
+    - [gmailServerBot](/Bots/gmailBotServer.py)
+  - Browser bot
 - Youtube bot
-    - can be found in /Bots/youtubeBot.py
+    - [youtubeBot](/Bots/youtubeBot.py)
 - Telegram bot
-  - can be found in /Bots/telegramBot.py
-  - script to run the bot can be found in /Bots/run.py
+  - [telegramBot](/Bots/telegramBot.py)
+  - Script to run the bot: [run](/Bots/run.py)
+  - Configuration file: [configTlgBot](/Bots/configTlgBot.py)
 
 ## Description of the bots
   
 - Domains Availability Check:
-   - The domainsCheck scans the availability of website domains With a list of domains and return the results in a list. The domainsCheckExcel reads the list of domains inside an Excel file and save the results in a text file.
+   - The [domainsCheck](/Bots/domainsCheck.py) scans the availability of website domains With a list of domains and return the results in a list. The [domainsCheckExcel](/Bots/domainsCheckExcel.py) reads the list of domains inside an Excel file and save the results in a text file.
 - Google bot
-  - The googleBot searches for determined information on Google website and return the results in a text file.
+  - The [googleBot](/Bots/googleBot.py) searches for determined information on Google website and return the results in a text file.
 - Email bot:
-  - The gmailBotServer apply the SMTP protocol client library to send emails using gmail server. There are options to attach files and external body text as such HTML codes. For the server bot is necessary to enable the option "Less secure app access" in Google account management security's tab. 
+  - The [gmailServerBot](/Bots/gmailBotServer.py) apply the SMTP protocol client library to send emails using gmail server. There are options to attach files and external body text as such HTML codes. For the server bot is necessary to enable the option "Less secure app access" in Google account management security's tab. 
 - YouTube bot
-  - The youtubeBot searches for determined information on YouTube website and return the results inside the console.
+  - The [youtubeBot](/Bots/youtubeBot.py) searches for determined information on YouTube website and return the results inside the console.
 - Telegram bot
-  - The telegramBot applies a method combining telegram's API with telethon library to get the members of a group in telegram and add in another group. Other methods will be applied later. For this bot, create an API code in "https://my.telegram.org/" and add your information in the code found in /Bots/configTlgBot.py. To run this code, another script was made, and it can be found in /Bots/run.py.
+  - The [telegramBot](/Bots/telegramBot.py) applies a method combining telegram's API with telethon library to get the members of a group in telegram and add in another group. Other methods will be applied later. For this bot, create an API code in "https://my.telegram.org/" and add your information in the code found in [configTlgBot](/Bots/configTlgBot.py). To run this code, another script was made, and it can be found in [run](/Bots/run.py).
 - Audiobook bot
   - The audioBookBot convert a PDF file to audio in MP3 format.
 
