@@ -11,10 +11,8 @@ Bots designed for automation methods with Python.
 
 ## List of bots:
 - Domains Availability Check:
-    1. With a list of domains
-       - can be found in /Bots/domainsCheck.py
-    2. With external Excel file and saving results in another text file
-       - can be found in /Bots/domainsCheckExcel.py
+  - can be found in /Bots/domainsCheck.py
+  - can be found in /Bots/domainsCheckExcel.py
 - Google bot
   - can be found in /Bots/googleBot.py
 - Email bot:
@@ -26,6 +24,19 @@ Bots designed for automation methods with Python.
   - can be found in /Bots/telegramBot.py
 
 ## Description of the bots
+  
+- Domains Availability Check:
+   - The domainsCheck scans the availability of website domains With a list of domains and return the results in a list. The domainsCheckExcel reads the list of domains inside an Excel file and save the results in a text file.
+- Google bot
+  - The googleBot searches for determined information on Google website and return the results in a text file.
+- Email bot:
+  - The gmailBotServer apply the SMTP protocol client library to send emails using gmail server. There are options to attach files and external body text as such HTML codes.
+- YouTube bot
+  - The youtubeBot searches for determined information on YouTube website and return the results inside the console.
+- Telegram bot
+  - The telegramBot applies a method combining telegram's API with telethon library to get the members of a group in telegram and add in another group. Other methods will be applied later.
+- Audiobook bot
+  - The audioBookBot convert a PDF file to audio in MP3 format.
 
 ## Bots to do:
 - [x] Google bot[^1]
@@ -34,7 +45,7 @@ Bots designed for automation methods with Python.
   - [ ] With browser[^3]
 - [x] Youtube bot[^4]
 - [x] Telegram bot[^5]
-- [ ] Audiobook bot
+- [ ] Audiobook bot[^6]
 
 For the Telegram bot, create an API code in "https://my.telegram.org/" and add your information in the code /Bots/configTlgBot.py
 
@@ -46,7 +57,7 @@ driver.get(url)
 
 ## Clean mode:
 
-ser = Service( )[^6]  
+ser = Service( )[^7]  
 op = webdriver.ChromeOptions()  
 #option to remove bluetooth adapter error     
 op.add_experimental_option("excludeSwitches", ["enable-logging"])    
@@ -59,4 +70,5 @@ driver.get(url)
 [^3]: Starting soon.
 [^4]: Minor issue in last page change.
 [^5]: Only the option to add members. More options to implement later.
-[^6]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
+[^6]: Starting soon.
+[^7]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
