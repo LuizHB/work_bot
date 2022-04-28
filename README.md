@@ -17,6 +17,13 @@ Bots designed for automation methods with Selenium and Excel files.
        - can be found in /Bots/domainsCheckExcel.py
 - Google bot
   - can be found in /Bots/googleBot.py
+- Email bot:
+  - Gmail server bot
+    -
+- Youtube bot
+    -
+- Telegram bot
+  - 
 
 ## Bots to do:
 - [x] Google bot[^1]
@@ -24,8 +31,9 @@ Bots designed for automation methods with Selenium and Excel files.
   - [x] Gmail server bot[^2]
   - [ ] With browser[^3]
 - [x] Youtube bot[^4]
-- [ ] Telegram bot[^5]
+- [x] Telegram bot[^5]
 
+For the Telegram bot, create an API code in "https://my.telegram.org/" and add your information in the code /Bots/configTlgBot.py
 
 ## Deprecated mode changed:
 
@@ -47,5 +55,5 @@ driver.get(url)
 [^2]: Going to be deprecated soon with gmail changes.
 [^3]: Starting soon.
 [^4]: Minor issue in last page change.
-[^5]: Starting soon.
+[^5]: Only the option to add members.
 [^6]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
