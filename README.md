@@ -25,6 +25,8 @@ Bots designed for automation methods with Python.
 - Telegram bot
   - can be found in /Bots/telegramBot.py
 
+## Description of the bots
+
 ## Bots to do:
 - [x] Google bot[^1]
 - [ ] Email bot
