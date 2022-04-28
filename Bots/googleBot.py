@@ -16,18 +16,23 @@ driver = webdriver.Chrome(service=ser, options=op)
 url = "https:www.google.com.br"
 driver.get(url)
 
+#get the search bar from google to type the object to search
 searchBar = driver.find_element(By.XPATH,"//input[@aria-label='Pesquisar']")
 searchBar.send_keys(search)
 searchBar.send_keys(Keys.ENTER)
 
+#get the amount of results
 results = driver.find_element(By.XPATH,"//*[@id='result-stats']").text
 print(results)
 num_results = int(results.split("Aproximadamente ")[1].split(' resultados')[0].replace(".",""))
+
+#the amount of pages you want to get the results
 num_max_pages = num_results/10
 target_page = input("%s number of pages found, till which one you wanna go? " % num_max_pages)
 
 url_page = driver.find_element(By.XPATH,"//a[@aria-label='Page 2']").get_attribute("href")
 
+#loop for the pages and to get the results
 actual_page = 0
 start = 10
 list_results = []
@@ -49,7 +54,7 @@ while actual_page <= int(target_page)-1:
         print(result)
         list_results.append(result)
 
-
+#save the results
 with open("Files/resultsGoogle.txt","w") as file:
     for result in list_results:
         file.write("%s \n" % result)

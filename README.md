@@ -7,7 +7,7 @@
 ![CHROMEDRIVER](http://img.shields.io/static/v1?label=Chromedriver&message=v100.0.4896.127&color=blue)
 
 
-Bots designed for automation methods with Selenium and Excel files.
+Bots designed for automation methods with Python.
 
 ## List of bots:
 - Domains Availability Check:
@@ -32,6 +32,7 @@ Bots designed for automation methods with Selenium and Excel files.
   - [ ] With browser[^3]
 - [x] Youtube bot[^4]
 - [x] Telegram bot[^5]
+- [ ] Audiobook bot
 
 For the Telegram bot, create an API code in "https://my.telegram.org/" and add your information in the code /Bots/configTlgBot.py
 
@@ -55,5 +56,5 @@ driver.get(url)
 [^2]: Going to be deprecated soon with gmail changes.
 [^3]: Starting soon.
 [^4]: Minor issue in last page change.
-[^5]: Only the option to add members.
+[^5]: Only the option to add members. More options to implement later.
 [^6]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
