@@ -4,7 +4,7 @@ from gtts import gTTS
 from tkinter.filedialog import askopenfilename
 from tkinter import Tk
 Tk().withdraw()
-filelocation = askopenfilename(initialdir="C:\\Users\\Pc\\Desktop\\Luiz\\Robos\\Aulas\\audio_book\\audio_book", title="open file", filetypes=(("document", "*.pdf"),("document","*.*")))# Escolher arquivo com GUI
+filelocation = askopenfilename(initialdir="C:\\Users\Pc\\Documents\\GitHub\\work_bot\\Bots\\Files", title="open file", filetypes=(("document", "*.pdf"),("document","*.*")))# Escolher arquivo com GUI
 
 book = open(filelocation, 'rb')
 print(book.read())
