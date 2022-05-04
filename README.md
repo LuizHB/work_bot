@@ -25,6 +25,8 @@ Bots designed for automation methods with Python.
   - [telegramBot](/Bots/telegramBot.py)
   - Script to run the bot: [run](/Bots/run.py)
   - Configuration file: [configTlgBot](/Bots/configTlgBot.py)
+- Audio bot
+  - [audioBot](/Bots/audioBot.py) 
 
 ## Description of the bots
   
@@ -39,7 +41,7 @@ Bots designed for automation methods with Python.
 - Telegram bot
   - The [telegramBot](/Bots/telegramBot.py) applies a method combining telegram's API with telethon library to get the members of a group in telegram and add in another group. Other methods will be applied later. For this bot, create an API code in "https://my.telegram.org/" and add your information in the code found in [configTlgBot](/Bots/configTlgBot.py). To run this code, another script was made named [run](/Bots/run.py).
 - Audio bot
-  - The [audioBot](/Bots/audioBot.py) converts a PDF file to audio in MP3 format.
+  - The [audioBot](/Bots/audioBot.py) converts a PDF file to audio in MP3 format. A sample PDF file is found in Files folder.
 
 ## Bots to do:
 - [x] Google bot[^1]
