@@ -5,14 +5,16 @@ from tkinter import Tk
 
 Tk().withdraw()
 # Choose the file
-book = fitz.open(r'C:\Users\Pc\Documents\GitHub\work_bot\Bots\Files\Lorem_ipsum.pdf')
-
+book = fitz.open(r'\Files\Lorem_ipsum.pdf')
 pages = book.page_count
 print("No. of pages: ", pages)
+#calling the speaker lib
 speaker = pyttsx3.init()
-whole_text = ''  # Get the whole text
+# Get the whole text
+whole_text = ''
 choice = input('Go till which page? ')
 
+#calling the text to read
 for num in range(0, int(choice)):
     page = book.load_page(num)
     text = page.get_text("text")
@@ -21,8 +23,11 @@ for num in range(0, int(choice)):
     print("Reading: ", text)
     speaker.runAndWait()
 
-final_file = gTTS(text=whole_text, lang='pt')
+#choose the language in 'lang'
+#change tld to 'com' for english and lang to 'en'
+final_file = gTTS(text=whole_text, lang='pt',tld="com.br")
 name = input("Type the name of the file to be saved: ")
-final_file.save(name + ".mp3")  # Save file in mp3
+# Save file in mp3
+final_file.save(r"\Files\%s.mp3" % name)
 
 book.close()
