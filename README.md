@@ -71,5 +71,5 @@ driver.get(url)
 [^3]: Starting soon.
 [^4]: Minor issue in last page change.
 [^5]: Only the option to add members. More options to implement later.
-[^6]: Might get errors with host connection depending on your internet signal.
+[^6]: Might get errors with host connection depending on your internet connection.
 [^7]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
