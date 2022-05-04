@@ -1,5 +1,5 @@
 import pyttsx3
-import fitz,sys
+import fitz
 from gtts import gTTS
 from tkinter import Tk
 
