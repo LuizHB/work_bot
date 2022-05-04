@@ -38,8 +38,8 @@ Bots designed for automation methods with Python.
   - The [youtubeBot](/Bots/youtubeBot.py) searches for determined information on YouTube website and return the results inside the console.
 - Telegram bot
   - The [telegramBot](/Bots/telegramBot.py) applies a method combining telegram's API with telethon library to get the members of a group in telegram and add in another group. Other methods will be applied later. For this bot, create an API code in "https://my.telegram.org/" and add your information in the code found in [configTlgBot](/Bots/configTlgBot.py). To run this code, another script was made named [run](/Bots/run.py).
-- Audiobook bot
-  - The audioBookBot convert a PDF file to audio in MP3 format.
+- Audio bot
+  - The [audioBot](/Bots/audioBot.py) converts a PDF file to audio in MP3 format.
 
 ## Bots to do:
 - [x] Google bot[^1]
@@ -48,7 +48,7 @@ Bots designed for automation methods with Python.
   - [ ] With browser[^3]
 - [x] Youtube bot[^4]
 - [x] Telegram bot[^5]
-- [ ] Audiobook bot[^6]
+- [x] Audiobook bot[^6]
 
 ## Deprecated mode changed:
 
@@ -71,5 +71,5 @@ driver.get(url)
 [^3]: Starting soon.
 [^4]: Minor issue in last page change.
 [^5]: Only the option to add members. More options to implement later.
-[^6]: Starting soon.
+[^6]: Might get errors with host connection depending on your internet signal.
 [^7]: With the chromedriver file on same folder you can leave the Service( ) parenthesis blank 
