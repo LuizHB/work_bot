@@ -40,4 +40,4 @@ jobs:
         pip install pytest-cov
         pip install selenium
         cd Bots
-        pytest domainsCheck.py
+        pytest gmailBotServer.py
