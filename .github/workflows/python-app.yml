@@ -41,4 +41,4 @@ jobs:
         pip install selenium
         pip install requests
         cd Bots
-        pytest gmailBotServer.py
+        python domainsCheck.py
